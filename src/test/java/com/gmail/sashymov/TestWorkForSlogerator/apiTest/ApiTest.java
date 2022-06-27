@@ -129,6 +129,7 @@ public class ApiTest {
                         .log().all()
                         .extract().response();
 
+
         //запрос на получение инфо другого игрока
         Response getAnotherPlayerInfo =
                 given()
